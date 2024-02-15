@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GuestUser-RegressionTest">
+    <test name="Guestuser-Test">
+        <classes>
+			<class name="Test_Package.RegisterUserAddProductToCartPage_Testclass"/>
+              <class name="Test_Package.Verify_Cart_Page_Testclass"/>
+             <class name="Test_Package.RegisterUserAddProductToCartPage_Testclass"/>
+             <class name="Test_Package.VerifyCheckoutInfomationPage_Testclass"/>
+             <class name="Test_Package.VerifyCheckoutInfromationPage2_TestClass"/>
+             <class name="Test_Package.VerifyPlaceOrderFromCheckoutPage"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Preorder-PickupSmokeSuites">
+    <test name="Preorder-Test">
+        <classes>
+            <class name="PerorderPickup_Testclass.Pickup_Zipcode_User_Login"/>
+             <class name="PerorderPickup_Testclass.PikupFlow_ProductList_TestClass"/>
+              <class name="PerorderPickup_Testclass.Add_PreorderProductInto_CartPage"></class>
+             <class name="PerorderPickup_Testclass.Verify_ScheduleOrderPoup_TestClass"></class>          
+        </classes>
+    </test>
+</suite>

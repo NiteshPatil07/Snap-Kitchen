@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Snap Kitchen Suit">
+	<listeners>
+		<listener class-name="Utility_Package.Listners"></listener>
+	</listeners>
+  <test thread-count="5" name="Add To Cart">
+    <classes>
+      <class name="Test_Package.Add_Product_into_cart_Page_testclass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

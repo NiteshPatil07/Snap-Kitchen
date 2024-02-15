@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GuestUser-SmokeTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Guestuser-Test(failed)">
+    <classes>
+      <class name="Test_Package.Test_snap_pass_Eductionalscreen">
+        <methods>
+          <include name="Start_appium"/>
+          <include name="Snap_pass_onbordingscreen"/>
+          <include name="Passing_the_Zipcode"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Test_Package.Test_snap_pass_Eductionalscreen -->
+      <class name="Test_Package.Sign_Up_Form_With_Valid_TestData">
+        <methods>
+          <include name="Verification_button"/>
+        </methods>
+      </class> <!-- Test_Package.Sign_Up_Form_With_Valid_TestData -->
+      <class name="Test_Package.Add_to_Cart_Button_testclass">
+        <methods>
+          <include name="get_product_data"/>
+          <include name="verify_Catergory_list"/>
+          <include name="closeapp"/>
+          <include name="Start_appium"/>
+          <include name="Passing_Zipcode_Register_Email"/>
+        </methods>
+      </class> <!-- Test_Package.Add_to_Cart_Button_testclass -->
+    </classes>
+  </test> <!-- Guestuser-Test(failed) -->
+</suite> <!-- Failed suite [GuestUser-SmokeTest] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GuestUser-SmokeTest">
+    <test name="Guestuser-Test">
+        <classes>
+			<class name="Test_Package.Zipcode_Popup_TestClass"/>
+              <class name="Test_Package.Test_snap_pass_Eductionalscreen"/>
+             <class name="Test_Package.LogIn_TestClass"/>
+             <class name="Test_Package.Sign_Up_Form_With_Valid_TestData"/>
+              <class name="Test_Package.Categories_name_testclass"/>
+             <class name="Test_Package.ProductListing_Page"/>
+              <class name="Test_Package.Add_lunch_dinner_Product_testclass"/>
+             <class name="Test_Package.Add_Product_into_cart_Page_testclass"/>
+             <class name="Test_Package.Add_to_Cart_Button_testclass"/>
+             <class name="Test_Package.Categories_name_testclass"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SnapPassTestSuite">
+    <test name="RegressionSuite">
+        <classes>
+            <class name="SnapPass_UserTestPackage.SnapPassUser_CheckoutInfoPage_1"/>
+            
+            <class name="SnapPass_UserTestPackage.SnapUserCheckoutInfo_Page2"/>
+            
+            <class name="SnapPass_UserTestPackage.SnapPassUserPlaceOrderFromCheckOutPage"/>
+            
+            <class name="SnapPass_UserTestPackage.VerifyUser_CreateSnappass_PlaceOrder"/>
+        </classes>
+    </test>
+</suite>

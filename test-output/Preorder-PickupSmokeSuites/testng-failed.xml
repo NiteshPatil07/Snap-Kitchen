@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Preorder-PickupSmokeSuites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Preorder-Test(failed)">
+    <classes>
+      <class name="PerorderPickup_Testclass.ProrderProduct_PlacedByUser_Testclass">
+        <methods>
+          <include name="verify_Catergory_list"/>
+          <include name="LoginUser"/>
+          <include name="Start_appium"/>
+          <include name="PlaceOrderFromCheckoutToThankyouPage"/>
+        </methods>
+      </class> <!-- PerorderPickup_Testclass.ProrderProduct_PlacedByUser_Testclass -->
+    </classes>
+  </test> <!-- Preorder-Test(failed) -->
+</suite> <!-- Failed suite [Preorder-PickupSmokeSuites] -->

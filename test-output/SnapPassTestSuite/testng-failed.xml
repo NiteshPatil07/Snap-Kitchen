@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SnapPassTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionSuite(failed)">
+    <classes>
+      <class name="SnapPass_UserTestPackage.SnapUserCheckoutInfo_Page2">
+        <methods>
+          <include name="verifyCheckoutPage2"/>
+          <include name="verify_Catergory_list"/>
+          <include name="Start_appium"/>
+          <include name="LoginUser"/>
+        </methods>
+      </class> <!-- SnapPass_UserTestPackage.SnapUserCheckoutInfo_Page2 -->
+      <class name="SnapPass_UserTestPackage.SnapPassUserPlaceOrderFromCheckOutPage">
+        <methods>
+          <include name="verify_Catergory_list"/>
+          <include name="Start_appium"/>
+          <include name="LoginUser"/>
+          <include name="PlaceOrderFromCheckoutToThankyouPage"/>
+        </methods>
+      </class> <!-- SnapPass_UserTestPackage.SnapPassUserPlaceOrderFromCheckOutPage -->
+      <class name="SnapPass_UserTestPackage.VerifyUser_CreateSnappass_PlaceOrder">
+        <methods>
+          <include name="SelectDeliveryFreqency_And_EnterSnapPassName"/>
+          <include name="LoginUser"/>
+          <include name="ConfrimTheOrder_and_ThankyouPage"/>
+          <include name="VerifyPaymentMethodFrame_And_Select_PaymentMethod"/>
+          <include name="Verify_And_Selecting_LoyaltyPoints_From_Disccount_Frame"/>
+          <include name="VerifyOrderandSelectAddress"/>
+          <include name="CheckThePageInfo_And_check_TermsConditons"/>
+          <include name="SelectingCheckboxForDeliveryAtDoor"/>
+          <include name="SelectDeliverydate_and_DeliveryWinow"/>
+          <include name="verify_Catergory_list"/>
+        </methods>
+      </class> <!-- SnapPass_UserTestPackage.VerifyUser_CreateSnappass_PlaceOrder -->
+    </classes>
+  </test> <!-- RegressionSuite(failed) -->
+</suite> <!-- Failed suite [SnapPassTestSuite] -->

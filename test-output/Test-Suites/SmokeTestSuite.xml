@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+    <test name="SnapPassUITest">
+        <classes>
+           <class name="SnapPass_UserTestPackage.SnapUserLogin_TestClass" />
+            
+            <class name="SnapPass_UserTestPackage.SnapUser_EnterZipcode_TestClasss"/>
+            
+            <class name="SnapPass_UserTestPackage.SnapProductListingPage"/>
+            
+            <class name="SnapPass_UserTestPackage.SnapPassUser_CheckoutInfoPage_1"/>
+            
+            <class name="SnapPass_UserTestPackage.SnapUserCheckoutInfo_Page2"/>
+        </classes>
+    </test>
+</suite>

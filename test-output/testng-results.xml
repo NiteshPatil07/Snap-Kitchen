@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-06T20:53:54 IST" name="Default suite" finished-at="2023-12-06T20:56:09 IST" duration-ms="135655">
+    <groups>
+    </groups>
+    <test started-at="2023-12-06T20:53:54 IST" name="Default test" finished-at="2023-12-06T20:56:09 IST" duration-ms="135655">
+      <class name="Test_Package.VerifyPlaceOrderFromCheckoutPage">
+        <test-method is-config="true" signature="Start_appium()[pri:0, instance:Test_Package.VerifyPlaceOrderFromCheckoutPage@2362f559]" started-at="2023-12-06T20:53:54 IST" name="Start_appium" finished-at="2023-12-06T20:54:32 IST" duration-ms="37840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_appium -->
+        <test-method is-config="true" signature="LoginUser()[pri:0, instance:Test_Package.VerifyPlaceOrderFromCheckoutPage@2362f559]" started-at="2023-12-06T20:54:32 IST" name="LoginUser" finished-at="2023-12-06T20:54:49 IST" duration-ms="16934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method is-config="true" signature="verify_Catergory_list()[pri:0, instance:Test_Package.VerifyPlaceOrderFromCheckoutPage@2362f559]" started-at="2023-12-06T20:54:49 IST" name="verify_Catergory_list" finished-at="2023-12-06T20:55:10 IST" depends-on-methods="Test_Package.VerifyPlaceOrderFromCheckoutPage.LoginUser" duration-ms="21973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Catergory_list -->
+        <test-method signature="PlaceOrderFromCheckoutToThankyouPage()[pri:0, instance:Test_Package.VerifyPlaceOrderFromCheckoutPage@2362f559]" started-at="2023-12-06T20:55:10 IST" name="PlaceOrderFromCheckoutToThankyouPage" finished-at="2023-12-06T20:56:09 IST" duration-ms="58847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderFromCheckoutToThankyouPage -->
+      </class> <!-- Test_Package.VerifyPlaceOrderFromCheckoutPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
